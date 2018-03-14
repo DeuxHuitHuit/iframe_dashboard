@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="iframe_dashboard" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+	<name>Iframe Dashboard</name>
+	<description>
+		Iframe dashboard for Symphony CMS.
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/iframe_dashboard</repo>
+	<url type="issues">https://github.com/DeuxHuitHuit/iframe_dashboard/issues</url>
+	<types>
+		<type>iframe</type>
+		<type>Dashboard</type>
+		<type>Interface</type>
+	</types>
+	<authors>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>https://deuxhuithuit.com/</website>
+		</author>
+	</authors>
+	<dependencies>
+		<dependency version="2.0.0">dashboard</dependency>
+	</dependencies>
+	<releases>
+		<release version="1.0.0" date="2018-03-14" min="2.7.0" max="2.7.x">
+			- First release
+		</release>
+	</releases>
+</extension>
